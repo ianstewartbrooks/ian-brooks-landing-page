@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+
+* {
+  color: #636363;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: rgb(6, 6, 6);
+}
+
+#container {
+  min-height: 100%;
+  position: relative;
+}
+
+#header {
+  text-align: center;
+  padding: 10px;
+}
+
+#content {
+  padding: 10px;
+  padding-bottom: 40px; /* Height of the footer */
+}
+
+#footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px; /* Height of the footer */
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-line {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  height: 50px;
+}
+
+.icon-line > a {
+  padding: 5px;
+}
+
+.icon-line > a > img {
+  width: 32px;
+  height: 32px;
+  transition: all 0.3s;
+}
+
+.icon-line > a > img:hover {
+  transform: scale(1.3);
+}
+
+.ian-image {
+  vertical-align: middle;
+  width: 302px;
+  height: 403px;
+  object-fit: cover;
+  overflow: hidden;
+}
